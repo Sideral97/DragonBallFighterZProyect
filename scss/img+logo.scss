@@ -1,0 +1,31 @@
+.logo {
+    width: 80%;
+    height: 80px;
+  }
+  .imggoku {
+    transition: all 0.5s;
+  
+    &:hover {
+      transform: translate(10px);
+    }
+  }
+  .foto {
+    width: 250px;
+    height: 150px;
+    opacity: .4;
+    transition: all 0.8s;
+  
+    &:hover {
+      opacity: 1;
+    }
+  }
+  
+  .box:hover {
+    border: solid white 4px;
+  }
+  .img2 {
+    display: block;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+  }
+       

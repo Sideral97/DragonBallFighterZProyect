@@ -1,0 +1,25 @@
+.menu {
+    background-color: #FFC300;
+  
+    li {
+      display: inline-block;
+  
+      a {
+        padding: 1px;
+        margin: 50px;
+        color: #c70039;
+        text-decoration: none;
+        display: inline-block;
+        transition: all 1s;
+  
+        &:hover {
+          color: #000000;
+          background-color: white;
+          border-radius: 30%;
+          transform: translate(0px, 2px);
+          transform: rotate(5deg);
+          transform: scale(1.2, 1.4);
+        }
+      }
+    }
+  }
